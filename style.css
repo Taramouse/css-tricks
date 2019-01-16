@@ -1,18 +1,18 @@
 @media (max-width: 500px) {
   :root {
-    --title-font-size: 20px;
+    --title-font-size: 40px;
   }
 }
 
 @media (max-width: 768px) {
   :root {
-    --title-font-size: 30px;
+    --title-font-size: 60px;
   }
 }
 
 @media (max-width: 1000px) {
   :root {
-    --title-font-size: 40px;
+    --title-font-size: 80px;
   }
 }
 
