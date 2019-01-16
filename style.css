@@ -1,21 +1,56 @@
-@media (max-width: 500px) {
+@media screen and (min-width: 400px) {
   :root {
     --title-font-size: 40px;
+    --title-color: red;
+    --subtitle-font-size: 30px;
+    --paragraph-font-size: 20px;
+    --title-padding: 0px;
+    --subtitle-paddinge: 0px;
+    --paragraph-padding: 0px;
   }
 }
 
-@media (max-width: 768px) {
-  :root {
-    --title-font-size: 60px;
-  }
-}
-
-@media (max-width: 1000px) {
+@media screen and (min-width: 768px) {
   :root {
     --title-font-size: 80px;
+    --title-color: green;
+    --subtitle-font-size: 50px;
+    --paragraph-font-size: 35px;
+    --title-padding: 0px;
+    --subtitle-paddinge: 0px;
+    --paragraph-padding: 0px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+    --title-font-size: 120px;
+    --title-color: blue;
+    --subtitle-font-size: 60px;
+    --paragraph-font-size: 40px;
+    --title-padding: 5px;
+    --subtitle-paddinge: 5px 20px 5px 20px;
+    --paragraph-padding: 5px 10px 5px 10px;
   }
 }
 
 h1 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
   font-size: var(--title-font-size);
+  color: var(--title-color);
+  padding: var(--title-padding);
+}
+
+h3 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-weight: normal;
+  font-size: var(--subtitle-font-size);
+  padding: var(--subtitle-padding);
+}
+
+p {
+  font-size: var(--paragraph-font-size);
+  padding: var(--paragraph-padding);
 }
